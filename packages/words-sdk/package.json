@@ -1,0 +1,26 @@
+{
+  "name": "@words/sdk",
+  "version": "0.1.4",
+  "description": "Useful tooling for interacting with the Words protocol",
+  "author": "Wordders",
+  "homepage": "https://words.wtf",
+  "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist tsconfig.build.tsbuildinfo",
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "yarn build",
+    "test": "mocha -r ts-node/register \"test/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@words/contracts": "^0.1.3",
+    "ethers": "^5.4.7"
+  },
+  "devDependencies": {
+    "node-libpng": "^0.2.18"
+  },
+  "peerDependencies": {
+    "ethers": ">=5.0.0"
+  }
+}

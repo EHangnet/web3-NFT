@@ -1,0 +1,30 @@
+node_modules
+parts.html
+
+#Hardhat files
+cache
+artifacts
+typechain/*.js
+typechain/*.ts
+typechain/factories/*
+!typechain/factories/WordsToken__factory.ts
+!typechain/factories/WordsAuctionHouse__factory.ts
+!typechain/factories/WordsDescriptor__factory.ts
+!typechain/factories/WordsSeeder__factory.ts
+!typechain/factories/WordsDaoLogicV1__factory.ts
+.openzeppelin
+
+# Script output
+logs
+
+# Coverage result files
+coverage/
+coverage.json
+
+abi/@openzeppelin
+abi/contracts/base
+abi/contracts/external
+abi/contracts/governance
+abi/contracts/interfaces
+abi/contracts/proxies
+abi/contracts/test

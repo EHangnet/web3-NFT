@@ -1,0 +1,23 @@
+.wordTitle {
+  color: black;
+}
+
+.wordTitle a:link {
+  color: black;
+}
+
+.wordTitle a:visited {
+  color: black;
+}
+
+.wordTitle a:hover {
+  color: black;
+}
+
+.wordTitle:active {
+  color: black;
+}
+
+.wrapper {
+  display: inline-block;
+}

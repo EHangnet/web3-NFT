@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce6a4de4-21fe-47be-9fb3-b2a44bb9ad0e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/artifacts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/artifacts.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/bots.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/bots.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/contract-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/contract-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/contracts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/contracts.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/preview-artifacts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/preview-artifacts.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile.bots" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.bots" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/src/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/src/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/src/clients.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/src/clients.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/src/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/src/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-api/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/0-backgrounds/bg-cool.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/0-backgrounds/bg-cool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/0-backgrounds/bg-warm.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/0-backgrounds/bg-warm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-bege-bsod.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-bege-bsod.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-bege-crt.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-bege-crt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-blue-sky.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-blue-sky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-bluegrey.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-bluegrey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-cold.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-cold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-computerblue.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-computerblue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-darkbrown.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-darkbrown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-darkpink.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-darkpink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-foggrey.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-foggrey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-gold.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-gold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-grayscale-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-grayscale-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-grayscale-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-grayscale-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-grayscale-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-grayscale-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-grayscale-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-grayscale-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-gunk.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-gunk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-hotbrown.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-hotbrown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-magenta.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-magenta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-orange-yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-orange-yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-peachy-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-peachy-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-peachy-a.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-peachy-a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-redpinkish.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-redpinkish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-rust.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-rust.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-slimegreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-slimegreen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-teal-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-teal-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-teal.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-teal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/1-bodies/body-yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/1-bodies/body-yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-1n.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-1n.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-aardvark.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-aardvark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-axe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-belly-chameleon.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-belly-chameleon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bird-flying.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bird-flying.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bird-side.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bird-side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-anchor.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-anchor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-anvil.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-anvil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-cheese.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-cheese.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-gold-ingot.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-gold-ingot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-love.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-love.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-rings.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-rings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-scissors.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-scissors.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-bling-sparkles.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-bling-sparkles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-body-gradient-checkerdisco.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-body-gradient-checkerdisco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-body-gradient-dawn.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-body-gradient-dawn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-body-gradient-dusk.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-body-gradient-dusk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-body-gradient-glacier.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-body-gradient-glacier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-body-gradient-ice.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-body-gradient-ice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-body-gradient-pride.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-body-gradient-pride.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-body-gradient-redpink.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-body-gradient-redpink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-body-gradient-sunset.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-body-gradient-sunset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-carrot.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-carrot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-chain-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-chain-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checker-RGB.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checker-RGB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checker-bigwalk-blue-prime.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checker-bigwalk-blue-prime.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checker-bigwalk-greylight.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checker-bigwalk-greylight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checker-bigwalk-rainbow.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checker-bigwalk-rainbow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checker-spaced-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checker-spaced-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checker-spaced-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checker-spaced-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checker-vibrant.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checker-vibrant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checkers-big-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checkers-big-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checkers-big-red-cold.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checkers-big-red-cold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checkers-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checkers-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checkers-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checkers-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-checkers-magenta-80.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-checkers-magenta-80.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-chicken.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-chicken.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-cloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-clover.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-clover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-collar-sunset.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-collar-sunset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-cow.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-cow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-decay-gray-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-decay-gray-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-decay-pride.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-decay-pride.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-dinosaur.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-dinosaur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-dollar-bling.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-dollar-bling.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-dragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-dragon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-ducky.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-ducky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-eth.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-eth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-flash.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-flash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-fries.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-fries.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-glasses-logo-sun.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-glasses-logo-sun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-glasses-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-glasses-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-glasses.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-glasses.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-grid-simple-bege.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-grid-simple-bege.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-hoodiestrings-uneven.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-hoodiestrings-uneven.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-id.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-id.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-infinity.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-infinity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-insignia.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-insignia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-leaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-leaf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-lightbulb.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-lightbulb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-lines-45-greens.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-lines-45-greens.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-lines-45-rose.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-lines-45-rose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-lp.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-lp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-marsface.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-marsface.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-matrix-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-matrix-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-moon-block.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-moon-block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-none.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-none.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-oldshirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-oldshirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-pizza-bling.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-pizza-bling.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-pocket-pencil.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-pocket-pencil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-rain.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-rain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-rainbow-steps.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-rainbow-steps.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-rgb.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-rgb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-robot.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-robot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-safety-vest.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-safety-vest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-scarf-clown.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-scarf-clown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-secret-x.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-secret-x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-shirt-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-shirt-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-shrimp.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-shrimp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-slimesplat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-slimesplat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-small-bling.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-small-bling.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-snowflake.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-snowflake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stains-blood.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stains-blood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stains-zombie.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stains-zombie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stripes-and-checks.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stripes-and-checks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stripes-big-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stripes-big-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stripes-blit.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stripes-blit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stripes-blue-med.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stripes-blue-med.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stripes-brown.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stripes-brown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stripes-olive.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stripes-olive.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-stripes-red-cold.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-stripes-red-cold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-sunset.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-sunset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-taxi-checkers.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-taxi-checkers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-tee-yo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-tee-yo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-text-yolo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-text-yolo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-think.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-think.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-tie-black-on-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-tie-black-on-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-tie-dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-tie-dye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-tie-purple-on-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-tie-purple-on-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-tie-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-tie-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-a2+b2.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-a2+b2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-cc.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-cc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-cc2.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-cc2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-dao-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-dao-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-doom.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-doom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-dope-text.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-dope-text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-foo-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-foo-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-io.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-io.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-lmao.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-lmao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-lol.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-lol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-mint.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-mint.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-nil-grey-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-nil-grey-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-noun-f0f.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-noun-f0f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-noun-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-noun-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-noun-multicolor.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-noun-multicolor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-noun.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-noun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-pi.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-pi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-pop.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-pop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-rofl.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-rofl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-we.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-we.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-txt-yay.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-txt-yay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-wall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-wave.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-wave.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-wet-money.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-wet-money.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-woolweave-bicolor.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-woolweave-bicolor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-woolweave-dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-woolweave-dirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/accessory-yingyang.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/accessory-yingyang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/body-bege.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/body-bege.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/body-gray-scale-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/body-gray-scale-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/body-gray-scale-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/body-gray-scale-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/2-accessories/body-ice-cold.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/2-accessories/body-ice-cold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-aardvark.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-aardvark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-abstract.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-abstract.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-ape.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-ape.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bagpipe.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bagpipe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-banana.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-banana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-baseball-gameball.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-baseball-gameball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-basketball.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-basketball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bear.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-beer.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-beer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-beet.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-beet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bell.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bigfoot-yeti.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bigfoot-yeti.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bigfoot.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bigfoot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-blackhole.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-blackhole.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-blueberry.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-blueberry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bomb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bonsai.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bonsai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-boombox.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-boombox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-boot.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-boot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-box.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-boxingglove.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-boxingglove.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-brain.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-brain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bubble-speech.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bubble-speech.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-bubblegum.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-bubblegum.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-burger-dollarmenu.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-burger-dollarmenu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cake.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-calculator.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-calculator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-calendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-calendar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-camcorder.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-camcorder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cannedham.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cannedham.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-car.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-car.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cash-register.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cash-register.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cassettetape.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cassettetape.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cd.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chain.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chainsaw.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chainsaw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chameleon.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chameleon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chart-bars.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chart-bars.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cheese.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cheese.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chefhat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chefhat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cherry.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cherry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chicken.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chicken.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chilli.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chilli.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chipboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chipboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chips.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chips.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-chocolate.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-chocolate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-clover.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-clover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-clutch.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-clutch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-coffeebean.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-coffeebean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cone.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-console-handheld.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-console-handheld.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cookie.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cookie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cordlessphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cordlessphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cottonball.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cottonball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-cow.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-cow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-crab.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-crab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-crane.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-crane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-croc-hat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-croc-hat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-crown.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-crown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-crt-bsod.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-crt-bsod.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-crystalball.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-crystalball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-diamond-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-diamond-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-diamond-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-diamond-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-dictionary.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-dictionary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-dino.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-dino.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-dna.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-dna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-dog.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-dog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-doughnut.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-doughnut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-drill.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-drill.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-duck.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-duck.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-ducky.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-ducky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-earth.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-earth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-egg.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-egg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-faberge.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-faberge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-factory-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-factory-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-fan.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-fan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-fence.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-fence.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-film-35mm.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-film-35mm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-film-strip.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-film-strip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-fir.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-fir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-firehydrant.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-firehydrant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-flamingo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-flamingo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-flower.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-flower.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-fox.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-fox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-frog.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-frog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-garlic.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-garlic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-gavel.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-gavel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-ghost-B.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-ghost-B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-glasses-big.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-glasses-big.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-gnome.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-gnome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-goat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-goat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-goldcoin.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-goldcoin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-goldfish.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-goldfish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-grouper.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-grouper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-hair.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-hair.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-hardhat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-hardhat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-helicopter.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-helicopter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-highheel.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-highheel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-hockeypuck.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-hockeypuck.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-horse-deepfried.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-horse-deepfried.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-hotdog.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-hotdog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-house.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-house.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-icepop-b.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-icepop-b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-igloo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-igloo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-island.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-island.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-jellyfish.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-jellyfish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-jupiter.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-jupiter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-kangaroo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-kangaroo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-ketchup.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-ketchup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-laptop.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-laptop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-lightning-bolt.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-lightning-bolt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-lint.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-lint.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-lips.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-lips.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-lipstick2.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-lipstick2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-macaroni.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-macaroni.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mailbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mailbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-maze.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-maze.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-microwave.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-microwave.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-milk.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-milk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mirror.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mirror.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mixer.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mixer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-moon.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-moon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-moose.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-moose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mosquito.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mosquito.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mountain-snowcap.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mountain-snowcap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mouse.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mouse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mug.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mushroom.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mushroom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-mustard.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-mustard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-nigiri.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-nigiri.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-noodles.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-noodles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-onion.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-onion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-orangutan.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-orangutan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-orca.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-orca.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-otter.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-otter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-outlet.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-outlet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-owl.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-owl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-oyster.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-oyster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-paintbrush.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-paintbrush.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-panda.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-panda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-paperclip.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-paperclip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-peanut.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-peanut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pencil-tip.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pencil-tip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-peyote.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-peyote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-piano.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-piano.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pickle.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pickle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pie.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-piggybank.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-piggybank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pill.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pill.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pillow.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pillow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pineapple.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pineapple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pipe.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pipe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pirateship.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pirateship.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pizza.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pizza.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-plane.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-plane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pop.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-porkbao.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-porkbao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-potato.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-potato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pufferfish.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pufferfish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pumpkin.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pumpkin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-pyramid.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-pyramid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-queencrown.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-queencrown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-rabbit.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-rabbit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-rainbow.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-rainbow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-rangefinder.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-rangefinder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-raven.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-raven.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-retainer.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-retainer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-rgb.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-rgb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-ring.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-ring.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-road.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-road.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-robot.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-robot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-rock.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-rock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-rosebud.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-rosebud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-ruler-triangular.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-ruler-triangular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-saguaro.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-saguaro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-sailboat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-sailboat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-sandwich.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-sandwich.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-saturn.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-saturn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-saw.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-saw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-scorpion.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-scorpion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-shark.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-shark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-shower.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-shower.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-skateboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-skateboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-skeleton-hat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-skeleton-hat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-skilift.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-skilift.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-smile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-snowglobe.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-snowglobe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-snowmobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-snowmobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-spaghetti.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-spaghetti.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-sponge.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-sponge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-squid.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-squid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-stapler.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-stapler.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-star-sparkles.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-star-sparkles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-steak.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-steak.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-sunset.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-sunset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-taco-classic.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-taco-classic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-taxi.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-taxi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-thumbsup.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-thumbsup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-toaster.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-toaster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-toiletpaper-full.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-toiletpaper-full.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-tooth.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-tooth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-toothbrush-fresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-toothbrush-fresh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-tornado.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-tornado.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-trashcan.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-trashcan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-turing.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-turing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-ufo.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-ufo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-undead.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-undead.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-unicorn.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-unicorn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-vent.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-vent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-void.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-void.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-volcano.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-volcano.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-volleyball.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-volleyball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-wall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-wallet.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-wallet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-wallsafe.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-wallsafe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-washingmachine.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-washingmachine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-watch.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-watch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-watermelon.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-watermelon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-wave.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-wave.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-weed.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-weed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-weight.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-weight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-werewolf.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-werewolf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-whale-alive.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-whale-alive.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-whale.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-whale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-wine.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-wine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-wizardhat.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-wizardhat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/3-heads/head-zebra.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/3-heads/head-zebra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-hip-rose.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-hip-rose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-black-eyes-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-black-eyes-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-black-rgb.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-black-rgb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-blue-med-saturated.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-blue-med-saturated.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-frog-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-frog-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-fullblack.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-fullblack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-green-blue-multi.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-green-blue-multi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-grey-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-grey-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-guava.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-guava.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-honey.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-honey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-magenta.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-magenta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-orange.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-orange.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-pink-purple-multi.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-pink-purple-multi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-smoke.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-smoke.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-teal.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-teal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-watermelon.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-watermelon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-yellow-orange-multi.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-yellow-orange-multi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/images/4-glasses/glasses-square-yellow-saturated.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/images/4-glasses/glasses-square-yellow-saturated.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/scripts/encode.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/scripts/encode.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/src/image-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/src/image-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/src/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/src/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/test/util.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/test/util.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/tsconfig.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/tsconfig.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-assets/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-assets/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/cache.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/cache.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/clients.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/clients.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/handlers/discord.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/handlers/discord.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/handlers/twitter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/handlers/twitter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/subgraph.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/subgraph.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/src/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-bots/src/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-bots/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-api/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/.solcover.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/.solcover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/abi/contracts/NounsAuctionHouse.sol/NounsAuctionHouse.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/abi/contracts/NounsAuctionHouse.sol/NounsAuctionHouse.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/abi/contracts/NounsDescriptor.sol/NounsDescriptor.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/abi/contracts/NounsDescriptor.sol/NounsDescriptor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/abi/contracts/NounsSeeder.sol/NounsSeeder.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/abi/contracts/NounsSeeder.sol/NounsSeeder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/abi/contracts/NounsToken.sol/NounsToken.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/abi/contracts/NounsToken.sol/NounsToken.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/abi/contracts/governance/NounsDAOLogicV1.sol/NounsDAOLogicV1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contract-uri.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contract-uri.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/NounsAuctionHouse.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/NounsAuctionHouse.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/NounsDescriptor.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/NounsDescriptor.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/NounsSeeder.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/NounsSeeder.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/NounsToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/NounsToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/base/ERC721.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/base/ERC721.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/base/ERC721Checkpointable.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/base/ERC721Checkpointable.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/base/ERC721Enumerable.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/base/ERC721Enumerable.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/external/opensea/IProxyRegistry.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/external/opensea/IProxyRegistry.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/governance/NounsDAOExecutor.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/governance/NounsDAOExecutor.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/governance/NounsDAOInterfaces.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/governance/NounsDAOInterfaces.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/governance/NounsDAOLogicV1.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/governance/NounsDAOLogicV1.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/governance/NounsDAOProxy.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/governance/NounsDAOProxy.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/interfaces/INounsAuctionHouse.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/interfaces/INounsAuctionHouse.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/interfaces/INounsDescriptor.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/interfaces/INounsDescriptor.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/interfaces/INounsSeeder.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/interfaces/INounsSeeder.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/interfaces/INounsToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/interfaces/INounsToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/interfaces/IWETH.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/interfaces/IWETH.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/libs/MultiPartRLEToSVG.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/libs/MultiPartRLEToSVG.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/libs/NFTDescriptor.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/libs/NFTDescriptor.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/proxies/NounsAuctionHouseProxy.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/proxies/NounsAuctionHouseProxy.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/proxies/NounsAuctionHouseProxyAdmin.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/proxies/NounsAuctionHouseProxyAdmin.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/test/MaliciousBidder.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/test/MaliciousBidder.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/test/NounsDAOExecutorHarness.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/test/NounsDAOExecutorHarness.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/test/NounsDAOImmutable.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/test/NounsDAOImmutable.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/test/NounsDAOLogicV1Harness.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/test/NounsDAOLogicV1Harness.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/contracts/test/WETH.sol" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/contracts/test/WETH.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/files/image-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/files/image-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/hardhat.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/hardhat.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/accounts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/accounts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/create-proposal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/create-proposal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/deploy-ci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/deploy-ci.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/deploy-local.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/deploy-local.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/deploy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/deploy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/mint-noun.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/mint-noun.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/populate-descriptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/populate-descriptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/run-local.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/run-local.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tasks/verify-etherscan.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tasks/verify-etherscan.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/auction.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/auction.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/descriptor.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/descriptor.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/end2end.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/end2end.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/governance/NounsDAO/castVote.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/governance/NounsDAO/castVote.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/governance/NounsDAO/inflationHandling.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/governance/NounsDAO/inflationHandling.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/governance/NounsDAO/state.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/governance/NounsDAO/state.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/governance/NounsDAO/vetoing.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/governance/NounsDAO/vetoing.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/governance/nounsGovernance.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/governance/nounsGovernance.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/nouns.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/nouns.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/test/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/test/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tsconfig.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tsconfig.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/typechain/factories/NounsAuctionHouse__factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/typechain/factories/NounsAuctionHouse__factory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/typechain/factories/NounsDaoLogicV1__factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/typechain/factories/NounsDaoLogicV1__factory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/typechain/factories/NounsDescriptor__factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/typechain/factories/NounsDescriptor__factory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/typechain/factories/NounsSeeder__factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/typechain/factories/NounsSeeder__factory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/typechain/factories/NounsToken__factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/typechain/factories/NounsToken__factory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-contracts/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-contracts/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/contract/addresses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/contract/addresses.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/contract/contracts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/contract/contracts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/contract/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/contract/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/contract/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/contract/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/image/image.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/image/image.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/image/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/image/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/image/png-collection-encoder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/image/png-collection-encoder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/image/svg-builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/image/svg-builder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/image/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/image/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/image/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/image/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/test/lib/data/expected.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/test/lib/data/expected.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/test/lib/data/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/test/lib/data/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/test/lib/images/empty.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/test/lib/images/empty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/test/lib/images/head-cone.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/test/lib/images/head-cone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/test/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/test/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/test/png-collection-encoder.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/test/png-collection-encoder.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/tsconfig.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/tsconfig.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-sdk/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-sdk/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/config/mainnet.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/config/mainnet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/config/rinkeby.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/config/rinkeby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/src/nouns-auction-house.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/src/nouns-auction-house.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/src/nouns-dao.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/src/nouns-dao.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/src/nouns-erc-721.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/src/nouns-erc-721.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/src/utils/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/src/utils/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/src/utils/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/src/utils/helpers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/subgraph.yaml.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/subgraph.yaml.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-subgraph/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-subgraph/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/.env.example.local" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/.env.example.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/declarations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/declarations.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/docs/insomnia.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/docs/insomnia.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/docs/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/docs/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/theGraph.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/theGraph.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/v0-is-noun-delegate/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/v0-is-noun-delegate/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/v0-is-noun-owner/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/v0-is-noun-owner/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/v0-noun-owners/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/v0-noun-owners/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/v0-noun-seeds/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/v0-noun-seeds/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/v0-noun-votes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/v0-noun-votes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/v0-proposal-votes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/v0-proposal-votes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/functions/v0-verify-signature/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/functions/v0-verify-signature/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/android-chrome-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/android-chrome-384x384.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/site.webmanifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/site.webmanifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/Londrina_Solid/LondrinaSolid-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/Londrina_Solid/LondrinaSolid-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/Londrina_Solid/LondrinaSolid-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/Londrina_Solid/LondrinaSolid-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/Londrina_Solid/LondrinaSolid-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/Londrina_Solid/LondrinaSolid-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/Londrina_Solid/LondrinaSolid-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/Londrina_Solid/LondrinaSolid-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/Londrina_Solid/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/Londrina_Solid/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/PT_Root_UI/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/PT_Root_UI/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/PT_Root_UI/PT-Root-UI_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/PT_Root_UI/PT-Root-UI_Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/PT_Root_UI/PT-Root-UI_Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/PT_Root_UI/PT-Root-UI_Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/public/static/fonts/PT_Root_UI/PT-Root-UI_Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/public/static/fonts/PT_Root_UI/PT-Root-UI_Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/404noun.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/404noun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/calendar_noun.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/calendar_noun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/heart-noun.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/heart-noun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/AbsentVote.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/AbsentVote.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/Abstain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/Abstain.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/Address.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/Address.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/Bids.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/Bids.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/Birthday.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/Birthday.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/Clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/Clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/Heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/Heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/Link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/Link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/NoVote.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/NoVote.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/PendingVote.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/PendingVote.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/VoteFailed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/VoteFailed.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/VotePassed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/VotePassed.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/icons/YesVote.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/icons/YesVote.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/loading-skull-noun.gif" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/loading-skull-noun.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/noun-pointer.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/noun-pointer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/4156.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/4156.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/9999.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/9999.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/cryptoseneca.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/cryptoseneca.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/devcarrot.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/devcarrot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/dom.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/dom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/gremplin.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/gremplin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/kai.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/kai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/solimander.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/solimander.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/timpers.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/timpers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/nounder-pfps/vapeape.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/nounder-pfps/vapeape.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/panel-animation2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/panel-animation2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/testnet-noun.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/testnet-noun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/wallet-brand-assets/brave.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/wallet-brand-assets/brave.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/wallet-brand-assets/coinbase-wallet-dot.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/wallet-brand-assets/coinbase-wallet-dot.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/wallet-brand-assets/fortmatic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/wallet-brand-assets/fortmatic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/wallet-brand-assets/ledger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/wallet-brand-assets/ledger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/wallet-brand-assets/metamask-fox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/wallet-brand-assets/metamask-fox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/wallet-brand-assets/trezor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/wallet-brand-assets/trezor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/wallet-brand-assets/walletconnect-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/wallet-brand-assets/walletconnect-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/assets/x-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/assets/x-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Auction/Auction.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Auction/Auction.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Auction/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Auction/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivity/AuctionActivity.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivity/AuctionActivity.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivity/BidHistory.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivity/BidHistory.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivity/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivity/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivityDateHeadline/AuctionActivityDateHeadline.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivityDateHeadline/AuctionActivityDateHeadline.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivityDateHeadline/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivityDateHeadline/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivityNounTitle/AuctionActivityNounTitle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivityNounTitle/AuctionActivityNounTitle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivityNounTitle/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivityNounTitle/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivityWrapper/AuctionActivityWrapper.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivityWrapper/AuctionActivityWrapper.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionActivityWrapper/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionActivityWrapper/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionNavigation/AuctionNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionNavigation/AuctionNavigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionNavigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionNavigation/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionTimer/AuctionTimer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionTimer/AuctionTimer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionTimer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionTimer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionTitleAndNavWrapper/AuctionTitleAndNavWrapper.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionTitleAndNavWrapper/AuctionTitleAndNavWrapper.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/AuctionTitleAndNavWrapper/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/AuctionTitleAndNavWrapper/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Banner/Banner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Banner/Banner.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Bid/Bid.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Bid/Bid.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Bid/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Bid/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/BidHistory/BidHistory.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/BidHistory/BidHistory.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/BidHistory/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/BidHistory/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/BidHistoryBtn/BidHistoryBtn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/BidHistoryBtn/BidHistoryBtn.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/BidHistoryBtn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/BidHistoryBtn/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/CreateProposalButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/CreateProposalButton/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/CurrentBid/CurrentBid.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/CurrentBid/CurrentBid.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/CurrentBid/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/CurrentBid/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Documentation/Documentation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Documentation/Documentation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Documentation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Documentation/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/HistoryCollection/HistoryCollection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/HistoryCollection/HistoryCollection.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/HistoryCollection/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/HistoryCollection/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Link/Link.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Link/Link.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Link/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Link/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/MinBid/MinBid.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/MinBid/MinBid.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/MinBid/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/MinBid/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Modal/Modal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Modal/Modal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Modal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Modal/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NavBar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NavBar/NavBarItem/NavBarItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NavBar/NavBarItem/NavBarItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NavBar/NavBarItem/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NavBar/NavBarItem/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NavBar/NavBarLink/NavBarLink.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NavBar/NavBarLink/NavBarLink.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NavBar/NavBarLink/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NavBar/NavBarLink/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NavBar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NavBar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NetworkAlert/NetworkAlert.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NetworkAlert/NetworkAlert.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NetworkAlert/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NetworkAlert/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Noun/Noun.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Noun/Noun.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Noun/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Noun/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounInfoCard/NounInfoCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounInfoCard/NounInfoCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounInfoCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounInfoCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounInfoRowBirthday/NounInfoRowBirthday.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounInfoRowBirthday/NounInfoRowBirthday.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounInfoRowBirthday/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounInfoRowBirthday/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounInfoRowButton/NounInfoRowButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounInfoRowButton/NounInfoRowButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounInfoRowButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounInfoRowButton/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounInfoRowHolder/NounInfoRowHolder.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounInfoRowHolder/NounInfoRowHolder.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounInfoRowHolder/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounInfoRowHolder/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounProfileVoteRow/NounProfileVoteRow.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounProfileVoteRow/NounProfileVoteRow.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounProfileVoteRow/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounProfileVoteRow/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounderNounContent/NounderNounContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounderNounContent/NounderNounContent.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/NounderNounContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/NounderNounContent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProfileActivityFeed/ProfileActivityFeed.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProfileActivityFeed/ProfileActivityFeed.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProfileActivityFeed/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProfileActivityFeed/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProposalEditor/ProposalEditor.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProposalEditor/ProposalEditor.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProposalEditor/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProposalEditor/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProposalStatus/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProposalStatus/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProposalTransactionFormModal/ProposalTransactionFormModal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProposalTransactionFormModal/ProposalTransactionFormModal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProposalTransactionFormModal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProposalTransactionFormModal/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProposalTransactions/ProposalTransactions.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProposalTransactions/ProposalTransactions.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ProposalTransactions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ProposalTransactions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Proposals/Proposals.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Proposals/Proposals.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Proposals/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Proposals/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ShortAddress/ShortAddress.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ShortAddress/ShortAddress.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/ShortAddress/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/ShortAddress/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/StandaloneNoun/StandaloneNoun.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/StandaloneNoun/StandaloneNoun.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/StandaloneNoun/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/StandaloneNoun/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/TruncatedAmount/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/TruncatedAmount/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/VerifySignature/VerifySignature.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/VerifySignature/VerifySignature.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/VerifySignature/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/VerifySignature/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/VoteModal/VoteModal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/VoteModal/VoteModal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/VoteModal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/VoteModal/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/VoteStatusPill/VoteStatusPill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/VoteStatusPill/VoteStatusPill.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/VoteStatusPill/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/VoteStatusPill/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/WalletButton/WalletButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/WalletButton/WalletButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/WalletButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/WalletButton/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/WalletConnectModal/WalletConnectModal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/WalletConnectModal/WalletConnectModal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/WalletConnectModal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/WalletConnectModal/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Winner/Winner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Winner/Winner.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/components/Winner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/components/Winner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/css/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/hooks/useLidoBalance.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/hooks/useLidoBalance.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/hooks/useLogs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/hooks/useLogs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/layout/Section/Section.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/layout/Section/Section.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/layout/Section/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/layout/Section/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/libs/abi/ERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/libs/abi/ERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Auction/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Auction/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/CreateProposal/CreateProposal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/CreateProposal/CreateProposal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/CreateProposal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/CreateProposal/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Governance/Governance.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Governance/Governance.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Governance/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Governance/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/NotFound/NotFound.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/NotFound/NotFound.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/NotFound/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/NotFound/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Nounders/NoundersPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Nounders/NoundersPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Nounders/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Nounders/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Playground/NounModal/NounModal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Playground/NounModal/NounModal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Playground/NounModal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Playground/NounModal/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Playground/Playground.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Playground/Playground.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Playground/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Playground/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Profile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Verify/Verify.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Verify/Verify.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Verify/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Verify/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Vote/Vote.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Vote/Vote.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/pages/Vote/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/pages/Vote/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/state/slices/account.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/state/slices/account.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/state/slices/application.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/state/slices/application.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/state/slices/auction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/state/slices/auction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/state/slices/contracts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/state/slices/contracts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/state/slices/logs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/state/slices/logs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/state/slices/onDisplayAuction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/state/slices/onDisplayAuction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/state/slices/pastAuctions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/state/slices/pastAuctions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/state/updaters/logs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/state/updaters/logs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/usedapp-core.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/usedapp-core.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/bidSorter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/bidSorter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/compareBids.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/compareBids.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/ensAvatar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/ensAvatar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/ensLookup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/ensLookup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/etherscan.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/etherscan.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/externalURL.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/externalURL.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/history.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/history.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/logParsing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/logParsing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/nounBgColors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/nounBgColors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/nounderNoun.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/nounderNoun.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/svg2png.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/svg2png.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/utils/vote.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/utils/vote.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/wrappers/nounToken.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/wrappers/nounToken.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/wrappers/nounsAuction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/wrappers/nounsAuction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/wrappers/nounsDao.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/wrappers/nounsDao.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/wrappers/onDisplayAuction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/wrappers/onDisplayAuction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/src/wrappers/subgraph.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/src/wrappers/subgraph.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nouns-webapp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/words-webapp/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="398210635">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>noun</find>
+      <find>Noun</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>word</replace>
+      <replace>Word</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\keepquiet\words-dao\nouns-monorepo\packages\nouns-api</dir>
+      <dir>D:\keepquiet\words-dao\nouns-monorepo\packages\words-assets</dir>
+      <dir>D:\keepquiet\words-dao\nouns-monorepo\packages\words-contracts</dir>
+      <dir>D:\keepquiet\words-dao\nouns-monorepo\packages\words-bots</dir>
+      <dir>D:\keepquiet\words-dao\nouns-monorepo\packages\nouns-sdk</dir>
+      <dir>D:\keepquiet\words-dao\nouns-monorepo\packages</dir>
+      <dir>D:\keepquiet\words-dao\nouns-monorepo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/packages/words-api/package.json" />
+      <path value="$PROJECT_DIR$/packages/words-assets/package.json" />
+      <path value="$PROJECT_DIR$/packages/words-bots/package.json" />
+      <path value="$PROJECT_DIR$/packages/words-contracts/package.json" />
+      <path value="$PROJECT_DIR$/packages/words-sdk/package.json" />
+      <path value="$PROJECT_DIR$/packages/words-subgraph/package.json" />
+      <path value="$PROJECT_DIR$/packages/words-webapp/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="112" />
+    <option name="y" value="68" />
+    <option name="width" value="1767" />
+    <option name="height" value="898" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nouns-monorepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nouns-monorepo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nouns-monorepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nouns-monorepo" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641133277347" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="D:\keepquiet\words-dao\nouns-monorepo\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\JetBrains\IntelliJ IDEA 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce6a4de4-21fe-47be-9fb3-b2a44bb9ad0e" name="Default Changelist" comment="" />
+      <created>1641133233542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641133233542</updated>
+      <workItem from="1641133235866" duration="678000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="678000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="112" y="68" width="1767" height="898" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24956064" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

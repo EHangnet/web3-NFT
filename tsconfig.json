@@ -1,0 +1,11 @@
+{
+    "references": [
+        { "path": "packages/words-api"},
+        { "path": "packages/words-assets"},
+        { "path": "packages/words-bots"},
+        { "path": "packages/words-contracts"},
+        { "path": "packages/words-sdk"},
+        { "path": "packages/words-subgraph"},
+        { "path": "packages/words-webapp"},
+    ]
+}

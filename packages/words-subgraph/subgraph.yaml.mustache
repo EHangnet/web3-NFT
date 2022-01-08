@@ -1,0 +1,99 @@
+specVersion: 0.0.3
+description: >-
+  Randomly generated avatar NFTs auctioned daily.
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: WordsAuctionHouse
+    network: {{network}}
+    source:
+      address: '{{wordsAuctionHouse.address}}'
+      abi: WordsAuctionHouse
+      startBlock: {{wordsAuctionHouse.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      file: ./src/words-auction-house.ts
+      entities:
+        - Account
+        - Auction
+        - Bid
+        - Word
+      abis:
+        - name: WordsAuctionHouse
+          file: ../words-contracts/abi/contracts/WordsAuctionHouse.sol/WordsAuctionHouse.json
+      eventHandlers:
+        - event: AuctionCreated(indexed uint256,uint256,uint256)
+          handler: handleAuctionCreated
+        - event: AuctionBid(indexed uint256,address,uint256,bool)
+          handler: handleAuctionBid
+        - event: AuctionExtended(indexed uint256,uint256)
+          handler: handleAuctionExtended
+        - event: AuctionSettled(indexed uint256,address,uint256)
+          handler: handleAuctionSettled
+  - kind: ethereum/contract
+    name: WordsToken
+    network: {{network}}
+    source:
+      address: '{{wordsToken.address}}'
+      abi: WordsToken
+      startBlock: {{wordsToken.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      file: ./src/words-erc-721.ts
+      entities:
+        - Word
+        - Seed
+        - Account
+        - Delegate
+        - Governance
+      abis:
+        - name: WordsToken
+          file: ../words-contracts/abi/contracts/WordsToken.sol/WordsToken.json
+      eventHandlers:
+        - event: WordCreated(indexed uint256,(uint48,uint48,uint48,uint48,uint48))
+          handler: handleWordCreated
+        - event: DelegateChanged(indexed address,indexed address,indexed address)
+          handler: handleDelegateChanged
+        - event: DelegateVotesChanged(indexed address,uint256,uint256)
+          handler: handleDelegateVotesChanged
+        - event: Transfer(indexed address,indexed address,indexed uint256)
+          handler: handleTransfer
+  - kind: ethereum/contract
+    name: WordsDAO
+    network: {{network}}
+    source:
+      address: '{{wordsDAO.address}}'
+      abi: WordsDAO
+      startBlock: {{wordsDAO.startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      file: ./src/words-dao.ts
+      entities:
+        - Account
+        - Delegate
+        - Proposal
+        - Vote
+        - Governance
+      abis:
+        - name: WordsDAO
+          file: ../words-contracts/abi/contracts/governance/WordsDAOLogicV1.sol/WordsDAOLogicV1.json
+      eventHandlers:
+        - event: ProposalCreatedWithRequirements(uint256,address,address[],uint256[],string[],bytes[],uint256,uint256,uint256,uint256,string)
+          handler: handleProposalCreatedWithRequirements
+        - event: ProposalCanceled(uint256)
+          handler: handleProposalCanceled
+        - event: ProposalVetoed(uint256)
+          handler: handleProposalVetoed
+        - event: ProposalQueued(uint256,uint256)
+          handler: handleProposalQueued
+        - event: ProposalExecuted(uint256)
+          handler: handleProposalExecuted
+        - event: VoteCast(indexed address,uint256,uint8,uint256,string)
+          handler: handleVoteCast
